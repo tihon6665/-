@@ -64,7 +64,43 @@ PATCH  |  нет          |  не всегда             | «поле равн
 DELETE |  нет          |  да                    | ресурс удалён один раз; повтор получит другой статус, но мир не изменится
 
 MET7.
-/api/getUsers действие в: ____ верная пара: ____
-/api?action=deleteUser&... действие в: ____ верная пара: ____
-/users/5/remove действие в: ____ верная пара: ____
-/posts/delete-all
+/api/getUsers действие в: нарушенный, верно /api/Users
+/api?action=deleteUser&: верно
+/users/5/remove действие в: верно
+/posts/delete-all: верно
+
+MET8.
+на веб версии не открывается терминал
+
+MET9.
+на веб версии не открывается терминал
+
+MET10.
+{
+    "name": "X",
+    "id": 101
+}
+
+{
+    "id": 101
+}
+
+MET11.
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<title>405 Method Not Allowed</title>
+<h1>Method Not Allowed</h1>
+<p>The method is not allowed for the requested URL.</p>
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<title>404 Not Found</title>
+<h1>Not Found</h1>
+<p>The requested URL was not found on the server. If you entered the URL manually please check your spelling and try
+    again.</p>
+оба не прошли
+
+MET12.
+A:0
+B:2
+3:3
+
+
